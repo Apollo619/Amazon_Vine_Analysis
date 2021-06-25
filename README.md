@@ -13,18 +13,18 @@ Using **PySpark** to perform the ETL process to extract the dataset, transform t
 To perform this analysis a script was created to pull the data and clean up nulls. Next additional tables were used to split out the reviews of Vine *(paid)* versus non-Vine *(unpaid)*. The following questions were asked with results posted… 
 
 1. How many Vine reviews and non-Vine reviews were there?
-   a. Based on the results of the script (see image below) we can tell that there were only *332* total vine reviews versus *61,614* for non-vine reviews. 
+   - Based on the results of the script (see image below) we can tell that there were only *332* total vine reviews versus *61,614* for non-vine reviews. 
 
 ![]( https://github.com/Apollo619/Amazon_Vine_Analysis/blob/main/resources/paid%20vs%20unpaid.PNG)
 
 2. How many Vine reviews, and non-Vine reviews were 5 stars?
-   a. Of the 334 paid reviews, *139* were 5-star ratings and *32,665* of the 61,614 unpaid reviews gave 5-star ratings. (See highlighted values in image below)
+   - Of the 334 paid reviews, *139* were 5-star ratings and *32,665* of the 61,614 unpaid reviews gave 5-star ratings. (See highlighted values in image below)
 
 ![]( https://github.com/Apollo619/Amazon_Vine_Analysis/blob/main/resources/5%20star%20paid%20vs%20unpaid.PNG)
 
 
 3. Lastly, what percentage of Vine reviews, and non-Vine reviews were 5 stars?
-   a. With the total number of rating for both paid and unpaid reviews, as well as the total number of 5-star ratings, we were able to calculate what percentage for each type of review was responsible for 5-star ratings. See below image for results highlighted in yellow.
+   - With the total number of rating for both paid and unpaid reviews, as well as the total number of 5-star ratings, we were able to calculate what percentage for each type of review was responsible for 5-star ratings. See below image for results highlighted in yellow.
 
 ![]( https://github.com/Apollo619/Amazon_Vine_Analysis/blob/main/resources/percentage%20paid%20vs%20unpaid.PNG)
 
