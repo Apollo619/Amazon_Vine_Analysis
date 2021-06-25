@@ -31,4 +31,5 @@ To perform this analysis a script was created to pull the data and clean up null
 ## Summary:
 
 Based on the results of the analysis we can say that there was **no bias** detected toward favorable reviews from the Vine members in the selected dataset. This is determined by the **41.62%** observed for the *Paid* reviews that received 5-star ratings. Considering more than half of the reviews that received 5-stars are from *Unpaid* reviewers, we are confident in our analysis.
+
 An additional recommended analysis to support the above statement would be to determine how many *Paid* Vine reviews for 4-star plus 5-star ratings account for the total number of votes versus *Unpaid* Vine reviews. This additional data will help provided a better understanding of the dataset. 
